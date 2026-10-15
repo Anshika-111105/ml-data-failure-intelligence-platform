@@ -1,0 +1,17 @@
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
+venv/
+
+# Large raw archive data (dashboard uses data/reference and data/simulated_batches)
+data/raw/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,522 @@
+{
+  "batch_001": {
+    "batch_id": "batch_001",
+    "file_name": "batch_001.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_002": {
+    "batch_id": "batch_002",
+    "file_name": "batch_002.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_003": {
+    "batch_id": "batch_003",
+    "file_name": "batch_003.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_004": {
+    "batch_id": "batch_004",
+    "file_name": "batch_004.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_005": {
+    "batch_id": "batch_005",
+    "file_name": "batch_005.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_006": {
+    "batch_id": "batch_006",
+    "file_name": "batch_006.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_007": {
+    "batch_id": "batch_007",
+    "file_name": "batch_007.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_008": {
+    "batch_id": "batch_008",
+    "file_name": "batch_008.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_009": {
+    "batch_id": "batch_009",
+    "file_name": "batch_009.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_010": {
+    "batch_id": "batch_010",
+    "file_name": "batch_010.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_011": {
+    "batch_id": "batch_011",
+    "file_name": "batch_011.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_012": {
+    "batch_id": "batch_012",
+    "file_name": "batch_012.csv",
+    "is_clean": true,
+    "row_count": 500,
+    "injected_fault_types": [],
+    "affected_features": [],
+    "expected_action": "ALLOW",
+    "description": "Clean production baseline batch without injected anomalies"
+  },
+  "batch_013": {
+    "batch_id": "batch_013",
+    "file_name": "batch_013.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "High missingness injected in UnitPrice feature"
+  },
+  "batch_014": {
+    "batch_id": "batch_014",
+    "file_name": "batch_014.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "High missingness injected in UnitPrice feature"
+  },
+  "batch_015": {
+    "batch_id": "batch_015",
+    "file_name": "batch_015.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "High missingness injected in UnitPrice feature"
+  },
+  "batch_016": {
+    "batch_id": "batch_016",
+    "file_name": "batch_016.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "High missingness injected in UnitPrice feature"
+  },
+  "batch_017": {
+    "batch_id": "batch_017",
+    "file_name": "batch_017.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "High missingness injected in UnitPrice feature"
+  },
+  "batch_018": {
+    "batch_id": "batch_018",
+    "file_name": "batch_018.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "High missingness injected in UnitPrice feature"
+  },
+  "batch_019": {
+    "batch_id": "batch_019",
+    "file_name": "batch_019.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "EXTREME_OUTLIERS"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Unit scaling (100x) and extreme IQR/MAD outlier values in UnitPrice"
+  },
+  "batch_020": {
+    "batch_id": "batch_020",
+    "file_name": "batch_020.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "EXTREME_OUTLIERS"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Unit scaling (100x) and extreme IQR/MAD outlier values in UnitPrice"
+  },
+  "batch_021": {
+    "batch_id": "batch_021",
+    "file_name": "batch_021.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "EXTREME_OUTLIERS"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Unit scaling (100x) and extreme IQR/MAD outlier values in UnitPrice"
+  },
+  "batch_022": {
+    "batch_id": "batch_022",
+    "file_name": "batch_022.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "EXTREME_OUTLIERS"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Unit scaling (100x) and extreme IQR/MAD outlier values in UnitPrice"
+  },
+  "batch_023": {
+    "batch_id": "batch_023",
+    "file_name": "batch_023.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "EXTREME_OUTLIERS"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Unit scaling (100x) and extreme IQR/MAD outlier values in UnitPrice"
+  },
+  "batch_024": {
+    "batch_id": "batch_024",
+    "file_name": "batch_024.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "EXTREME_OUTLIERS"
+    ],
+    "affected_features": [
+      "UnitPrice"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Unit scaling (100x) and extreme IQR/MAD outlier values in UnitPrice"
+  },
+  "batch_025": {
+    "batch_id": "batch_025",
+    "file_name": "batch_025.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "SCHEMA_CATEGORICAL_VIOLATION"
+    ],
+    "affected_features": [
+      "Country"
+    ],
+    "expected_action": "WARN",
+    "description": "Unregistered / corrupt categorical labels in Country"
+  },
+  "batch_026": {
+    "batch_id": "batch_026",
+    "file_name": "batch_026.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "SCHEMA_CATEGORICAL_VIOLATION"
+    ],
+    "affected_features": [
+      "Country"
+    ],
+    "expected_action": "WARN",
+    "description": "Unregistered / corrupt categorical labels in Country"
+  },
+  "batch_027": {
+    "batch_id": "batch_027",
+    "file_name": "batch_027.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "SCHEMA_CATEGORICAL_VIOLATION"
+    ],
+    "affected_features": [
+      "Country"
+    ],
+    "expected_action": "WARN",
+    "description": "Unregistered / corrupt categorical labels in Country"
+  },
+  "batch_028": {
+    "batch_id": "batch_028",
+    "file_name": "batch_028.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "SCHEMA_CATEGORICAL_VIOLATION"
+    ],
+    "affected_features": [
+      "Country"
+    ],
+    "expected_action": "WARN",
+    "description": "Unregistered / corrupt categorical labels in Country"
+  },
+  "batch_029": {
+    "batch_id": "batch_029",
+    "file_name": "batch_029.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "SCHEMA_CATEGORICAL_VIOLATION"
+    ],
+    "affected_features": [
+      "Country"
+    ],
+    "expected_action": "WARN",
+    "description": "Unregistered / corrupt categorical labels in Country"
+  },
+  "batch_030": {
+    "batch_id": "batch_030",
+    "file_name": "batch_030.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "SCHEMA_CATEGORICAL_VIOLATION"
+    ],
+    "affected_features": [
+      "Country"
+    ],
+    "expected_action": "WARN",
+    "description": "Unregistered / corrupt categorical labels in Country"
+  },
+  "batch_031": {
+    "batch_id": "batch_031",
+    "file_name": "batch_031.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "Quantity"
+    ],
+    "expected_action": "WARN",
+    "description": "Substantial distribution drift in Quantity (High PSI & low KS p-value)"
+  },
+  "batch_032": {
+    "batch_id": "batch_032",
+    "file_name": "batch_032.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "Quantity"
+    ],
+    "expected_action": "WARN",
+    "description": "Substantial distribution drift in Quantity (High PSI & low KS p-value)"
+  },
+  "batch_033": {
+    "batch_id": "batch_033",
+    "file_name": "batch_033.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "Quantity"
+    ],
+    "expected_action": "WARN",
+    "description": "Substantial distribution drift in Quantity (High PSI & low KS p-value)"
+  },
+  "batch_034": {
+    "batch_id": "batch_034",
+    "file_name": "batch_034.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "Quantity"
+    ],
+    "expected_action": "WARN",
+    "description": "Substantial distribution drift in Quantity (High PSI & low KS p-value)"
+  },
+  "batch_035": {
+    "batch_id": "batch_035",
+    "file_name": "batch_035.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "Quantity"
+    ],
+    "expected_action": "WARN",
+    "description": "Substantial distribution drift in Quantity (High PSI & low KS p-value)"
+  },
+  "batch_036": {
+    "batch_id": "batch_036",
+    "file_name": "batch_036.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "Quantity"
+    ],
+    "expected_action": "WARN",
+    "description": "Substantial distribution drift in Quantity (High PSI & low KS p-value)"
+  },
+  "batch_037": {
+    "batch_id": "batch_037",
+    "file_name": "batch_037.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES",
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "UnitPrice",
+      "Quantity"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Multi-fault compound failure: price missingness + demand distribution drift"
+  },
+  "batch_038": {
+    "batch_id": "batch_038",
+    "file_name": "batch_038.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES",
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "UnitPrice",
+      "Quantity"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Multi-fault compound failure: price missingness + demand distribution drift"
+  },
+  "batch_039": {
+    "batch_id": "batch_039",
+    "file_name": "batch_039.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES",
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "UnitPrice",
+      "Quantity"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Multi-fault compound failure: price missingness + demand distribution drift"
+  },
+  "batch_040": {
+    "batch_id": "batch_040",
+    "file_name": "batch_040.csv",
+    "is_clean": false,
+    "row_count": 500,
+    "injected_fault_types": [
+      "MISSING_VALUES",
+      "DISTRIBUTION_DRIFT"
+    ],
+    "affected_features": [
+      "UnitPrice",
+      "Quantity"
+    ],
+    "expected_action": "BLOCK",
+    "description": "Multi-fault compound failure: price missingness + demand distribution drift"
+  }
+}

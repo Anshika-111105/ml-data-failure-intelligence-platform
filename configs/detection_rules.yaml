@@ -1,0 +1,75 @@
+metadata:
+  version: "1.0.0"
+  description: "Deterministic quality, outlier, drift and release gate rules"
+
+schema:
+  required_columns:
+    - "InvoiceNo"
+    - "StockCode"
+    - "Description"
+    - "Quantity"
+    - "InvoiceDate"
+    - "UnitPrice"
+    - "Country"
+  categorical_checks:
+    Country:
+      allow_unknown_ratio: 0.03  # Max allowable ratio of unregistered country categories before WARN
+      severity: "MEDIUM"
+
+missingness:
+  critical_columns:
+    UnitPrice:
+      warn_delta: 0.04    # Delta increase in null rate over reference baseline
+      block_delta: 0.08   # Delta increase in null rate triggering BLOCK
+      severity: "CRITICAL"
+    Quantity:
+      warn_delta: 0.02
+      block_delta: 0.05
+      severity: "CRITICAL"
+  secondary_columns:
+    Description:
+      warn_delta: 0.10
+      block_delta: 0.25
+      severity: "LOW"
+    CustomerID:
+      warn_delta: 0.15
+      block_delta: 0.35
+      severity: "LOW"
+
+outliers:
+  UnitPrice:
+    method: "iqr"  # Options: iqr, mad
+    iqr_multiplier: 3.0
+    max_extreme_ratio: 0.03  # If >3% of rows exceed outer IQR fence, trigger incident
+    absolute_hard_max: 1000.0
+    severity: "HIGH"
+  Quantity:
+    method: "iqr"
+    iqr_multiplier: 3.0
+    max_extreme_ratio: 0.05
+    absolute_hard_max: 5000.0
+    severity: "MEDIUM"
+
+distribution_drift:
+  numerical_features:
+    - "Quantity"
+    - "UnitPrice"
+  psi:
+    stable_threshold: 0.10
+    moderate_drift_threshold: 0.20  # Warn
+    severe_drift_threshold: 0.25    # Block / Actionable drift
+    severity: "HIGH"
+  ks_test:
+    alpha: 0.005  # Significance level for 2-sample KS test
+    severity: "MEDIUM"
+
+gating_policy:
+  severity_weights:
+    CRITICAL: 100
+    HIGH: 50
+    MEDIUM: 20
+    LOW: 5
+  thresholds:
+    block_score: 50   # Aggregate score >= 50 -> BLOCK
+    warn_score: 20    # Aggregate score >= 20 and < 50 -> WARN
+    # Aggregate score < 20 -> ALLOW
