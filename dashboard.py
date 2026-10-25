@@ -1,9 +1,3 @@
-"""
-Interactive Streamlit Dashboard for ML Data Failure Early-Warning & Root-Cause Intelligence Platform.
-Provides multi-signal incident detection visualizer, clean vs. corrupted side-by-side distribution analysis,
-evidence-grounded GenAI RAG copilot, and historical release gate audit logging.
-"""
-
 import os
 import json
 import time
